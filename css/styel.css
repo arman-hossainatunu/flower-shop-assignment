@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+
+}
+/* ============Commone Css End=========== */
+#banner{
+    background-color: #ce6f83;
+    height: 850px;
+    
+}
+.baner-containe{
+    display: flex;
+    justify-content: space-between;
+}
+.baner-containe .text h1 {
+    margin-top: 197px;
+    width: 665px;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+.baner-containe .text p {
+    margin-top: 32px;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 618px;
+}
+.baner-containe .text button {
+    margin-top: 32px;
+    background-color: #E55473;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    border: none;
+    padding:  20px 43px 20px 43px;
+    border-radius: 8px;
+  
+}
+.baner-containe .text button a{
+    color: #FFFFFF;
+}
+
+.img{
+    margin-top: 50px;
+}
+/* ========= Banner Part End============== */
+#Featured{
+    padding-top: 173px;
+    padding-bottom: 100px;
+}
+.section-head{
+    text-align: center;
+}
+.section-head h1{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+.section-head p{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+   
+}
+.Featured-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.Featured-img .left-img{
+    background-color: #A72162;
+    width: 464px;
+    height: 605px;
+    border-radius: 300px 300px 0 0;
+    position: relative;
+}
+.Featured-img .left-img img{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+}
+.Featured-img .madel-img{
+    background-color: #0597A0;
+    width: 464px;
+    height: 605px;
+    border-radius: 300px 300px 0 0;
+    position: relative;
+}
+.Featured-img .madel-img img{
+   position: absolute;
+   top: 170px;
+   left: 47px;
+
+}
+
+.Featured-img .right-img{
+    background-color: #477D11;
+    width: 464px;
+    height: 605px;
+    border-radius: 300px 300px 0 0;
+    position: relative;
+}
+h5{
+    position: absolute;
+    bottom: 0;
+    margin-left: 30%;
+    text-decoration: underline;
+    bottom: -50px;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    cursor: pointer;
+}
+.Featured-img .right-img img{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+
+}
+/* ===============Featured part end================= */
+#Support{
+    padding-top: 128px;
+    padding-bottom: 50px;
+
+}
+.Support-item{
+    background-color: #ddd0d0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.item {
+    text-align: center;
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+.item img {
+  margin-bottom: 24px;
+}
+.item p {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+/* ===============Support part end================= */
+#Hot-Deal{
+    background-color: #ebd1d7;
+    margin-top: 50px;
+}
+.deal-containe{
+    display: flex;
+    justify-content: space-around;
+}
+.deal-containe .deal-text{
+    text-align: center;
+}
+.deal-containe .deal-text h1{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 35px;
+    margin-top: 230px;   
+}
+.deal-containe .deal-text p{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   margin-top: 32px;
+}
+.deal-containe .deal-text button{
+    padding: 20px 40px;
+    background-color: #E55473;
+    border-radius: 8px;
+    margin-top: 32px;
+    border: none;
+}
+.deal-containe .deal-text button a{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.deal-containe .deal-text h1 span{
+    color: red;
+      
+}
+.deal-containe .deal-img{
+   margin-top: 100px;
+      
+}
+.deal-containe .deal-img img{
+   margin-bottom: 50px;
+      
+}
+/* ===============Hot-Deal part end================= */
+#Instagram{
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+#Instagram .insta-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+/* =======================Instagram part end=================*/
+#Latest-Deals{
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+.deals-banner {
+    position: relative;
+}
+.deals-banner .Latest-Deals-text {
+    position: absolute;
+    top: 110px;
+    left: 34%;
+    text-align: center;
+    
+
+}
+.Latest-Deals-text h2{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.Latest-Deals-text p{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.deals-banner input {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+  top: 229px;
+  left: 344px;
+  width: 603px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+.deals-banner a{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    background-color: #E55473;
+    top: 229px;
+    right: 340px;
+    border-radius: 8px;
+   padding: 16px 31px;
+}
+/* =======================Latest-Deals part end======================== */
+#feedback{
+    padding-top: 128px;
+    padding-bottom: 50px;
+    background-color: #ebd1d7;
+}
+form{
+    text-align: center;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+
+}
+input {
+    width: 600px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+textarea{
+    width: 600px;
+    height: 122px;
+    padding: 19px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+#submit{
+    color: #fff;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #111010;
+    text-align: center;
+padding-bottom: 128px;
+}
+footer h1{
+    padding-top: 128px;
+    color: #E55473;
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+footer h1 span{
+    color: #fff;
+}
+footer p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+
+}
+footer samp{
+    color: #a8a0a0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* ===================footer part end=============== */
